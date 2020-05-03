@@ -30,29 +30,59 @@ matchs[36] = {"serie":"C", "girone":6, "nome":"sociale-2020-serie-c-girone-6", "
 matchs[37] = {"serie":"C", "girone":7, "nome":"sociale-2020-serie-c-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0};
 matchs[38] = {"serie":"C", "girone":8, "nome":"sociale-2020-serie-c-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0};
 
-var tabellaFinali = [];
 var matchFinaliA = [];
 var matchFinaliB = [];
 var matchFinaliC = [];
-//finali[41] = {"white" : {"username":"laszlo1977", "result":"lost"}, "black" : {"username":"capfracassa", "result":"win"},}
 //Se pari aggiungere un record con risulatato agreed, sarà valido solo per la classifica giocatori
-matchFinaliA[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliA[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliB[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliC[31] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliC[32] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
-matchFinaliC[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""},}
+matchFinaliA[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+//Serie B
+matchFinaliB[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+//Serie C
+matchFinaliC[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+
+
 
 var maxGirone = 8;   //E' il numero dei gironi 
 
@@ -290,6 +320,9 @@ function stampaEliminatorie(tabella, username)
 
 function stampaFinale(tabella, finali)
 {
+    //Devo crearla gqui altrimenti se non sono valorizzati tutti i punteggi il dato viene ripetuto in più tabelle
+    var tabellaFinali = [];
+
      //assegno i punteggi delle finali
      var i = 0
      for (var i in finali) {
@@ -301,8 +334,10 @@ function stampaFinale(tabella, finali)
              if (finali[i].white.result == 'win') semaforo =  'verde.png'
              else if (finali[i].white.result == 'lost') semaforo =  'rosso.png'
              else semaforo =  'giallo.png';   
-              tabellaFinali[i] = '<td class="classifica-col1"  ><img class="classifica-avatar" src="img/' + semaforo + '"></td>' +  
-                    '<td class="giocatori-col1SEP"  ></td>' + 
+             semaforo = '<img class="classifica-avatar" src="img/' + semaforo + '">';
+             semaforo = '<a href="' + finali[i].url + '" target=”_blank”>' + semaforo +'</a>';
+             tabellaFinali[i] = '<td class="classifica-col1"  >' + semaforo + '</td>' +  
+             '<td class="giocatori-col1SEP"  ></td>' + 
                      '<td class="classifica-col2-Finale">' +
                      '    <table><tr>' +
                      '        <td>' +
@@ -321,7 +356,9 @@ function stampaFinale(tabella, finali)
              if (finali[i].black.result == 'win') semaforo =  'verde.png'
              else if (finali[i].black.result == 'lost') semaforo =  'rosso.png'
              else semaforo =  'giallo.png';   
-             tabellaFinali[1+i] = '<td class="classifica-col1" style="border-bottom: 1px solid #ececec;"><img class="classifica-avatar" src="img/' + semaforo + '"></td>' +  
+             semaforo = '<img class="classifica-avatar" src="img/' + semaforo + '">';
+             semaforo = '<a href="' + finali[i].url + '" target=”_blank”>' + semaforo +'</a>';
+             tabellaFinali[1+i] = '<td class="classifica-col1" style="border-bottom: 1px solid #ececec;">' + semaforo + '</td>' +  
                    '<td class="giocatori-col1SEP" style="border-bottom: 1px solid #ececec;"></td>' + 
                     '<td class="classifica-col2-Finale" style="border-bottom: 1px solid #ececec;">' +
                     '    <table><tr>' +
@@ -339,12 +376,20 @@ function stampaFinale(tabella, finali)
      }        
 
      //Stampo la tabella
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[41] + '<td></td><td></td><td></td><td></td><td></td><td></td>  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[141] + tabellaFinali[21] + '<td></td><td></td><td></td>  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[42] +  tabellaFinali[121] + '<td></td><td></td><td></td>  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[142] + '<td></td><td></td><td></td>' +  tabellaFinali[11] + '  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[43] + '<td></td><td></td><td></td>' +  tabellaFinali[111] + '  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[143] + tabellaFinali[22] + '<td></td><td></td><td></td>  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[44]  +  tabellaFinali[122] + '<td></td><td></td><td></td>  </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[144] + '<td></td><td></td><td></td><td></td><td></td><td></td>  </tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[81] + '<td></td><td></td><td></td><td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[181] + tabellaFinali[41] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[82] +  tabellaFinali[141] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[182] + '<td></td><td></td><td></td>' +  tabellaFinali[21] + '  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[83] + '<td></td><td></td><td></td>' +  tabellaFinali[121] + '  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[183] + tabellaFinali[42] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[84]  +  tabellaFinali[142] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[184] + '<td></td><td></td><td></td><td></td><td></td>aaa<td></td>' +  tabellaFinali[11] + '   </tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[85] + '<td></td><td></td><td></td><td></td><td></td><td></td>' +  tabellaFinali[111] + '   </tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[185] + tabellaFinali[41] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[86] +  tabellaFinali[141] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[186] + '<td></td><td></td><td></td>' +  tabellaFinali[21] + '  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[87] + '<td></td><td></td><td></td>' +  tabellaFinali[121] + ' <td></td><td></td><td></td> </tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[187] + tabellaFinali[42] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[88]  +  tabellaFinali[142] + '<td></td><td></td><td></td> <td></td><td></td><td></td> </tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[188] + '<td></td><td></td><td></td><td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
 }
