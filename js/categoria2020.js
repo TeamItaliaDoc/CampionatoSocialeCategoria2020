@@ -87,7 +87,7 @@ matchFinaliC[11] = {"white" : {"username":"", "result":""}, "black" : {"username
 var maxGirone = 8;   //E' il numero dei gironi 
 
 //https://api.chess.com/pub/tournament/csp-inverno-2018-2019-girone-1/1/1
-
+//  https://teamitaliadoc.github.io/CampionatoSocialeCategoria2020/index.html?dev=33
 function elabora() {
     //Carico i dati di tutti i match
     for (var i in matchs) {
@@ -98,6 +98,7 @@ function elabora() {
 
 function caricaMatch(url)
 {
+    console.log('caricaMatch: ' + url);
     //Leggo i dati 
     $.getJSON(url,function(data){
 
@@ -162,15 +163,17 @@ function caricaMatch(url)
     }).error(function(jqXhr, textStatus, error) {
         //è andato in errore ricarico i dati
         //Se responseJSON non è valorizzato solo se il record esiste    
+        console.log(this.url + ' Errore in caricamento');
         var index = 0;
         for (var i in matchs) {
             if (matchs[i].url == this.url)
                 index = i;
         };
+        console.log(this.url + ' index: ' + index);
         if (! jqXhr.responseJSON)
         {
             console.log('ERRORE ricarico dati: ' + this.url);
-                caricaMatch(index, this.url);    
+                caricaMatch(this.url);    
             } else {
                 console.log('ERRORE Match non valida. ' + this.url);
                 console.log('ERRORE Match non valida. ' + this.url);
