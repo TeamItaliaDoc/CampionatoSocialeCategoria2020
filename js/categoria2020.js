@@ -5,7 +5,7 @@ var fineTurno1 = new Date(2019,11,30,12,0,0,0);
 
 var matchs = [];
 //matchs[1] = {"serie":"A", "girone":1, "nome":"wonderful-autumn-weather", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0};
-//matchs[11] = {"serie":"A", "girone":1, "nome":"sociale-2020-serie-a-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
+matchs[11] = {"serie":"A", "girone":1, "nome":"sociale-2020-serie-a-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
 matchs[12] = {"serie":"A", "girone":2, "nome":"sociale-2020-serie-a-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
 matchs[13] = {"serie":"A", "girone":3, "nome":"sociale-2020-serie-a-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
 matchs[14] = {"serie":"A", "girone":4, "nome":"sociale-2020-serie-a-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
