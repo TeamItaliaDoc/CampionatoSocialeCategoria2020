@@ -5,30 +5,30 @@ var fineTurno1 = new Date(2019,11,30,12,0,0,0);
 
 var matchs = [];
 //matchs[1] = {"serie":"A", "girone":1, "nome":"wonderful-autumn-weather", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0};
-matchs[11] = {"serie":"A", "girone":1, "nome":"sociale-2020-serie-a-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[12] = {"serie":"A", "girone":2, "nome":"sociale-2020-serie-a-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[13] = {"serie":"A", "girone":3, "nome":"sociale-2020-serie-a-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[14] = {"serie":"A", "girone":4, "nome":"sociale-2020-serie-a-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[15] = {"serie":"A", "girone":5, "nome":"sociale-2020-serie-a-girone-5", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[16] = {"serie":"A", "girone":6, "nome":"sociale-2020-serie-a-girone-6", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[17] = {"serie":"A", "girone":7, "nome":"sociale-2020-serie-a-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[18] = {"serie":"A", "girone":8, "nome":"sociale-2020-serie-a-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[21] = {"serie":"B", "girone":1, "nome":"sociale-2020-serie-b-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[22] = {"serie":"B", "girone":2, "nome":"sociale-2020-serie-b-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[23] = {"serie":"B", "girone":3, "nome":"sociale-2020-serie-b-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[24] = {"serie":"B", "girone":4, "nome":"sociale-2020-serie-b-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[25] = {"serie":"B", "girone":5, "nome":"sociale-2020-serie-b-girone-5", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[26] = {"serie":"B", "girone":6, "nome":"sociale-2020-serie-b-girone-6", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[27] = {"serie":"B", "girone":7, "nome":"sociale-2020-serie-b-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-//matchs[28] = {"serie":"B", "girone":8, "nome":"sociale-2020-serie-b-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[31] = {"serie":"C", "girone":1, "nome":"sociale-2020-serie-c-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[32] = {"serie":"C", "girone":2, "nome":"sociale-2020-serie-c-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[33] = {"serie":"C", "girone":3, "nome":"sociale-2020-serie-c-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[34] = {"serie":"C", "girone":4, "nome":"sociale-2020-serie-c-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[35] = {"serie":"C", "girone":5, "nome":"sociale-2020-serie-c-girone-5", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[36] = {"serie":"C", "girone":6, "nome":"sociale-2020-serie-c-girone-6", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[37] = {"serie":"C", "girone":7, "nome":"sociale-2020-serie-c-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
-matchs[38] = {"serie":"C", "girone":8, "nome":"sociale-2020-serie-c-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0};
+matchs[11] = {"serie":"A", "girone":1, "nome":"sociale-2020-serie-a-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[12] = {"serie":"A", "girone":2, "nome":"sociale-2020-serie-a-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[13] = {"serie":"A", "girone":3, "nome":"sociale-2020-serie-a-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[14] = {"serie":"A", "girone":4, "nome":"sociale-2020-serie-a-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[15] = {"serie":"A", "girone":5, "nome":"sociale-2020-serie-a-girone-5", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[16] = {"serie":"A", "girone":6, "nome":"sociale-2020-serie-a-girone-6", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[17] = {"serie":"A", "girone":7, "nome":"sociale-2020-serie-a-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[18] = {"serie":"A", "girone":8, "nome":"sociale-2020-serie-a-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[21] = {"serie":"B", "girone":1, "nome":"sociale-2020-serie-b-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[22] = {"serie":"B", "girone":2, "nome":"sociale-2020-serie-b-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[23] = {"serie":"B", "girone":3, "nome":"sociale-2020-serie-b-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[24] = {"serie":"B", "girone":4, "nome":"sociale-2020-serie-b-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[25] = {"serie":"B", "girone":5, "nome":"sociale-2020-serie-b-girone-5", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[26] = {"serie":"B", "girone":6, "nome":"sociale-2020-serie-b-girone-6", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[27] = {"serie":"B", "girone":7, "nome":"sociale-2020-serie-b-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+//matchs[28] = {"serie":"B", "girone":8, "nome":"sociale-2020-serie-b-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[31] = {"serie":"C", "girone":1, "nome":"sociale-2020-serie-c-girone-1", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[32] = {"serie":"C", "girone":2, "nome":"sociale-2020-serie-c-girone-2", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[33] = {"serie":"C", "girone":3, "nome":"sociale-2020-serie-c-girone-3", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[34] = {"serie":"C", "girone":4, "nome":"sociale-2020-serie-c-girone-4", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[35] = {"serie":"C", "girone":5, "nome":"sociale-2020-serie-c-girone-5", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[36] = {"serie":"C", "girone":6, "nome":"sociale-2020-serie-c-girone-6", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[37] = {"serie":"C", "girone":7, "nome":"sociale-2020-serie-c-girone-7", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
+matchs[38] = {"serie":"C", "girone":8, "nome":"sociale-2020-serie-c-girone-8", "daCaricare":true, "stampaPosizione" : 0, "ultimo":0, "partiteTerminate":0, "nQualificati":0};
 /**/
 var matchFinaliA = [];
 var matchFinaliB = [];
@@ -219,7 +219,8 @@ function calcolaEliminatorie(tabella, serie)
         for (var i in giocatori)
         {
             //Come punti spareggio uso le vittorie
-            if ((giocatori[i].serie == serie && giocatori[i].girone == iGirone && giocatori[i].posizioneGruppo == 0) & (giocatori[i].punti > max || (giocatori[i].punti == max) && giocatori[i].puntiSpareggio > maxSpareggio)) {
+            if ((giocatori[i].serie == serie && giocatori[i].girone == iGirone && giocatori[i].posizioneGruppo == 0) &
+                 (giocatori[i].punti > max || (giocatori[i].punti == max) && giocatori[i].puntiSpareggio > maxSpareggio)) {
                 username = i;
                 max = giocatori[i].punti;
                 maxSpareggio = giocatori[i].puntiSpareggio;
@@ -282,10 +283,7 @@ function calcolaEliminatorie(tabella, serie)
             {
                 //Stampo il girone
                 if (max == 999) {
-                    if (matchs[index].partiteTerminate == 6) 
-                        tabella.append('<tr><td><a style="font-weight: bold" href="https://www.chess.com/tournament/' + matchs[index].nome + '/pairings" target=”_blank”>Girone ' + iGirone + '</a></td><td><img class="classifica-check" src="img/check.png"></td><td></td></tr>');
-                    else
-                        tabella.append('<tr><td><a style="font-weight: bold" href="https://www.chess.com/tournament/' + matchs[index].nome + '/pairings" target=”_blank”>Girone ' + iGirone + '</a></td></tr>');
+                        tabella.append('<tr><td><a style="font-weight: bold" href="https://www.chess.com/tournament/' + matchs[index].nome + '/pairings" target=”_blank”>Girone ' + iGirone + '</a></td><td><img id="imgCheck' + index.toString() +'" class="classifica-check" style="display:none" src="img/check.png"></td><td></td></tr>');
                 }
 
                 max = 1000;
@@ -331,6 +329,12 @@ function stampaEliminatorie(tabella, username)
             if (giocatori[username].posizioneGruppo == 3 && matchs[giocatori[username].match].punti1 > giocatori[username].punti  + 4 - matchs[giocatori[username].match].partite3 ) semaforo =  'rosso.png';
         }
     }
+
+    //Se ho due qualificati visualizzo check
+    if (semaforo == 'verde.png')
+        matchs[giocatori[username].match].nQualificati ++;
+    if (matchs[giocatori[username].match].partiteTerminate == 6 || matchs[giocatori[username].match].nQualificati == 2)
+        $("#imgCheck"+giocatori[username].match).attr("style","dispaly:block");
 
     //stampo riga    
     tabella.append('<tr class="classifica-giocatori">' +
