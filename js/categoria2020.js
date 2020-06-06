@@ -193,6 +193,10 @@ function calcolaFinale()
     stampaFinale($("#finaleB"), matchFinaliB);
     stampaFinale($("#finaleC"), matchFinaliC);
 
+    //correggo i punti spareggio con scontri diretti
+    giocatori['themoonlightknight'].puntiSpareggio = 99;
+    giocatori['paccarozzo'].puntiSpareggio = 99;
+    
     //Calcolo e stampo la classifica eliminatorie
     calcolaEliminatorie($("#eliminatorieA"), 'A');
     calcolaEliminatorie($("#eliminatorieB"), 'B');
