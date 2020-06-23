@@ -181,6 +181,8 @@ function caricaMatch(url)
                 console.log('ERRORE Match non valida. ' + this.url);
                 //non lo devo più caricare
                 matchs[index].daCaricare = false;            }
+
+                //??????? se non carica l'ultimo si pianta ????????
               
         });
 }
@@ -196,6 +198,7 @@ function calcolaFinale()
     //correggo i punti spareggio con scontri diretti
     giocatori['themoonlightknight'].puntiSpareggio = 99;
     giocatori['paccarozzo'].puntiSpareggio = 99;
+    giocatori['abatichs'].puntiSpareggio = 99;
     
     //Calcolo e stampo la classifica eliminatorie
     calcolaEliminatorie($("#eliminatorieA"), 'A');
