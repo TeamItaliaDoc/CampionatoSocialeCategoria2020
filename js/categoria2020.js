@@ -200,6 +200,11 @@ function calcolaFinale()
     giocatori['paccarozzo'].puntiSpareggio = 99;
     giocatori['abatichs'].puntiSpareggio = 99;
     
+    giocatori['sbimone'].puntiSpareggio = 99;
+    giocatori['pantheon-67'].puntiSpareggio = 99;
+    giocatori['dida70'].puntiSpareggio = 99;
+    giocatori['sundancek'].puntiSpareggio = 99;
+    
     //Calcolo e stampo la classifica eliminatorie
     calcolaEliminatorie($("#eliminatorieA"), 'A');
     calcolaEliminatorie($("#eliminatorieB"), 'B');
@@ -337,6 +342,16 @@ function stampaEliminatorie(tabella, username)
         }
     }
 
+    //Forzo giocatori che non funziona neanche con lo spareggio
+    if ((username == 'dida70') || (username == 'pantheon-67') || (username == 'sbimone') || (username == 'sundancek'))
+    {
+       semaforo =  'verde.png';
+    }
+    if ((username == 'xdms') || (username == 'nonnogio1951'))
+    {
+       semaforo =  'rosso.png';
+    }
+    
     //Se ho due qualificati visualizzo check
     if (semaforo == 'verde.png')
         matchs[giocatori[username].match].nQualificati ++;
