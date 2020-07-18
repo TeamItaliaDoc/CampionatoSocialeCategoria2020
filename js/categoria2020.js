@@ -34,14 +34,14 @@ var matchFinaliA = [];
 var matchFinaliB = [];
 var matchFinaliC = [];
 //Se pari aggiungere un record con risulatato agreed, sarà valido solo per la classifica giocatori
-matchFinaliA[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[81] = {"white" : {"username":"yoggsaron99", "result":""}, "black" : {"username":"88arf", "result":""}, "url":""}
+matchFinaliA[82] = {"white" : {"username":"frank23259", "result":""}, "black" : {"username":"tulpicanistan/peloritano", "result":""}, "url":""}
+matchFinaliA[83] = {"white" : {"username":"rapace", "result":""}, "black" : {"username":"saurosol", "result":""}, "url":""}
+matchFinaliA[84] = {"white" : {"username":"pumpf", "result":""}, "black" : {"username":"el-pinto/tesctassa", "result":""}, "url":""}
+matchFinaliA[85] = {"white" : {"username":"paolobarolo", "result":""}, "black" : {"username":"vitellotonnato", "result":""}, "url":""}
+matchFinaliA[86] = {"white" : {"username":"sandokann", "result":""}, "black" : {"username":"lupodellasila", "result":""}, "url":""}
+matchFinaliA[87] = {"white" : {"username":"sir-h-hornblower", "result":""}, "black" : {"username":"federicomalavasi", "result":""}, "url":""}
+matchFinaliA[88] = {"white" : {"username":"homunculus1", "result":""}, "black" : {"username":"dirkflasche", "result":""}, "url":""}
 matchFinaliA[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliA[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliA[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
@@ -50,12 +50,13 @@ matchFinaliA[21] = {"white" : {"username":"", "result":""}, "black" : {"username
 matchFinaliA[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliA[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 //Serie B
-matchFinaliB[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[81] = {"white" : {"username":"clafa", "result":""}, "black" : {"username":"themoonlightknight", "result":""}, "url":""}
+matchFinaliB[82] = {"white" : {"username":"il_king", "result":""}, "black" : {"username":"nick_940", "result":""}, "url":""}
+matchFinaliB[83] = {"white" : {"username":"elmarba", "result":""}, "black" : {"username":"dag_stinner", "result":""}, "url":""}
+matchFinaliB[84] = {"white" : {"username":"valeriobc", "result":""}, "black" : {"username":"capfracassa", "result":""}, "url":""}
+matchFinaliB[85] = {"white" : {"username":"reflex56", "result":""}, "black" : {"username":"golia-il-dilisteo", "result":""}, "url":""}
+matchFinaliB[85] = {"white" : {"username":"1° classificato g1", "result":""}, "black" : {"username":"2° classificato g7", "result":""}, "url":""}
+matchFinaliB[86] = {"white" : {"username":"1° classificato g7", "result":""}, "black" : {"username":"2° classificato g1", "result":""}, "url":""}
 matchFinaliB[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
@@ -66,14 +67,14 @@ matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username
 matchFinaliB[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 //Serie C
-matchFinaliC[81] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[82] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[83] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[84] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[85] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[86] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[87] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[81] = {"white" : {"username":"marpur", "result":""}, "black" : {"username":"abatichs", "result":""}, "url":""}
+matchFinaliC[82] = {"white" : {"username":"ytoong", "result":""}, "black" : {"username":"babilonia", "result":""}, "url":""}
+matchFinaliC[83] = {"white" : {"username":"tizianoparriani", "result":""}, "black" : {"username":"sundancek", "result":""}, "url":""}
+matchFinaliC[84] = {"white" : {"username":"linchetto", "result":""}, "black" : {"username":"dida70", "result":""}, "url":""}
+matchFinaliC[85] = {"white" : {"username":"fulljoker", "result":""}, "black" : {"username":"giampiero111", "result":""}, "url":""}
+matchFinaliC[86] = {"white" : {"username":"thejoker2000", "result":""}, "black" : {"username":"sbimone", "result":""}, "url":""}
+matchFinaliC[87] = {"white" : {"username":"kmoreteam", "result":""}, "black" : {"username":"pantheon-67", "result":""}, "url":""}
+matchFinaliC[88] = {"white" : {"username":"tempiese75", "result":""}, "black" : {"username":"cavaliereyedi", "result":""}, "url":""}
 matchFinaliC[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliC[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliC[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
@@ -284,6 +285,13 @@ function calcolaEliminatorie(tabella, serie)
         }
     }
 
+    //Cambio i gironi ai giocatori del 3 e 6 bis
+    giocatori['sbimone'].girone = 3;
+    giocatori['xdms'].girone = 3;
+    giocatori['dida70'].girone = 6;
+    giocatori['sundancek'].girone = 6;
+    
+
     //Stampo
     for (var index in matchs) {
         max = 999;
@@ -395,7 +403,22 @@ function stampaFinale(tabella, finali)
          if (finali[i].white.username != '') {
              //Giocatore bianco
              username = finali[i].white.username;
-             var semaforo = '';
+            //Se giocatore non si è ancora qualificato
+            linkGiocatore = '';
+            if (giocatori[username])
+            {
+                linkGiocatore = '<a class="username" style="border-bottom: 0px" href="' + giocatori[username].url + '" target=”_blank”> ' + giocatori[username].displayName + '</a>';
+                linkGiocatore += '        </div> <div style="text-align:left">  (' + giocatori[username].elo + ') </div>';
+            }
+            else
+            {
+               creaGiocatore(username);
+               giocatori[username].displayName = username;
+               giocatori[username].avatar = "https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg";
+               giocatori[username].elo = '';
+               linkGiocatore = giocatori[username].displayName;
+            }
+            var semaforo = '';
              if (finali[i].white.result == 'win') semaforo =  'verde.png'
              else if (finali[i].white.result == 'lost') semaforo =  'rosso.png'
              else semaforo =  'giallo.png';   
@@ -410,14 +433,28 @@ function stampaFinale(tabella, finali)
                      '    </td>' +
                      '    <td width=7px></td>' +
                      '    <td><div>' +
-                     '            <a class="username" style="border-bottom: 0px" href="' + giocatori[username].url + '" target=”_blank”> ' + giocatori[username].displayName + '</a>' +
-                     '        </div> <div style="text-align:left">  (' + giocatori[username].elo + ') </div>' +
+                     '            ' + linkGiocatore +
                      '        </td>' +    
                      '    </tr></table>' +
                      '</td>';
              //Giocatore nero
              username = finali[i].black.username;
              var semaforo = '';
+            //Se giocatore non si è ancora qualificato
+            linkGiocatore = '';
+            if (giocatori[username])
+            {
+                linkGiocatore = '<a class="username" style="border-bottom: 0px" href="' + giocatori[username].url + '" target=”_blank”> ' + giocatori[username].displayName + '</a>';
+                linkGiocatore += '        </div> <div style="text-align:left">  (' + giocatori[username].elo + ') </div>';
+            }
+            else
+            {
+               creaGiocatore(username);
+               giocatori[username].displayName = username;
+               giocatori[username].avatar = "https://betacssjs.chesscomfiles.com/bundles/web/images/user-image.152ee336.svg";
+               giocatori[username].elo = '';
+               linkGiocatore = giocatori[username].displayName;
+            }
              if (finali[i].black.result == 'win') semaforo =  'verde.png'
              else if (finali[i].black.result == 'lost') semaforo =  'rosso.png'
              else semaforo =  'giallo.png';   
@@ -432,8 +469,7 @@ function stampaFinale(tabella, finali)
                     '    </td>' +
                     '    <td width=7px></td>' +
                     '    <td><div>' +
-                    '            <a class="username" href="' + giocatori[username].url + '" target=”_blank”> ' + giocatori[username].displayName + '</a>' +
-                    '        </div> <div style="text-align:left">  (' + giocatori[username].elo + ') </div>' +
+                    '            ' + linkGiocatore +
                     '        </td>' +    
                     '    </tr></table>' +
                     '</td>';

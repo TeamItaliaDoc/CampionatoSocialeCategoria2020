@@ -33,6 +33,15 @@ function getAvatarUrl(url)
                 return;
             }
         }
+
+        //Se è bannato 
+        if (dataAvatar.status == 'closed:fair_play_violations') {
+            console.log('-------------- BANNATO: ' + dataAvatar.username);
+            console.log('-------------- BANNATO: ' + dataAvatar.username);
+            console.log('-------------- BANNATO: ' + dataAvatar.username);
+            console.log('-------------- BANNATO: ' + dataAvatar.username);
+            console.log('-------------- BANNATO: ' + dataAvatar.username);
+        }
   
         //Finito calcolo. Scrivo i risultati 
         //   Controllo se è già partita la fase di scrittura
