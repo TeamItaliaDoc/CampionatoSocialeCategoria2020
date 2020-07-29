@@ -51,16 +51,16 @@ matchFinaliA[22] = {"white" : {"username":"", "result":""}, "black" : {"username
 matchFinaliA[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 //Serie B
 matchFinaliB[81] = {"white" : {"username":"clafa", "result":""}, "black" : {"username":"themoonlightknight", "result":""}, "url":""}
-matchFinaliB[82] = {"white" : {"username":"il_king", "result":""}, "black" : {"username":"nick_940", "result":""}, "url":""}
+matchFinaliB[82] = {"white" : {"username":"il_king", "result":"win"}, "black" : {"username":"nick_940", "result":"lost"}, "url":"https://www.chess.com/daily/game/271748742"}
 matchFinaliB[83] = {"white" : {"username":"elmarba", "result":""}, "black" : {"username":"dag_stinner", "result":""}, "url":""}
 matchFinaliB[84] = {"white" : {"username":"valeriobc", "result":""}, "black" : {"username":"capfracassa", "result":""}, "url":""}
-matchFinaliB[85] = {"white" : {"username":"reflex56", "result":""}, "black" : {"username":"golia_il_filisteo", "result":""}, "url":""}
-matchFinaliB[86] = {"white" : {"username":"1° classificato g1", "result":""}, "black" : {"username":"2° classificato g7", "result":""}, "url":""}
-matchFinaliB[87] = {"white" : {"username":"1° classificato g7", "result":""}, "black" : {"username":"2° classificato g1", "result":""}, "url":""}
+matchFinaliB[85] = {"white" : {"username":"reflex56", "result":"lost"}, "black" : {"username":"golia_il_filisteo", "result":"win"}, "url":"https//www.chess.com/daily/game/271865764"}
+matchFinaliB[86] = {"white" : {"username":"1° classificato g1", "result":""}, "black" : {"username":"schiappone", "result":""}, "url":""}
+matchFinaliB[87] = {"white" : {"username":"gd1966", "result":""}, "black" : {"username":"2° classificato g1", "result":""}, "url":""}
 matchFinaliB[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"il_king", "result":""}, "url":""}
 matchFinaliB[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[43] = {"white" : {"username":"golia_il_filisteo", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
@@ -70,13 +70,13 @@ matchFinaliC[81] = {"white" : {"username":"marpur", "result":""}, "black" : {"us
 matchFinaliC[82] = {"white" : {"username":"ytoong", "result":""}, "black" : {"username":"babilonia", "result":""}, "url":""}
 matchFinaliC[83] = {"white" : {"username":"tizianoparriani", "result":""}, "black" : {"username":"sundancek", "result":""}, "url":""}
 matchFinaliC[84] = {"white" : {"username":"linchetto", "result":""}, "black" : {"username":"dida70", "result":""}, "url":""}
-matchFinaliC[85] = {"white" : {"username":"fulljoker", "result":""}, "black" : {"username":"giampiero111", "result":""}, "url":""}
-matchFinaliC[86] = {"white" : {"username":"thejoker2000", "result":""}, "black" : {"username":"sbimone", "result":""}, "url":""}
+matchFinaliC[85] = {"white" : {"username":"fulljoker", "result":"lost"}, "black" : {"username":"giampiero111", "result":"win"}, "url":"https://www.chess.com/daily/game/271742242"}
+matchFinaliC[86] = {"white" : {"username":"thejoker2000", "result":"win"}, "black" : {"username":"sbimone", "result":"lost"}, "url":"https://www.chess.com/daily/game/271761182"}
 matchFinaliC[87] = {"white" : {"username":"kmoreteam", "result":""}, "black" : {"username":"pantheon-67", "result":""}, "url":""}
 matchFinaliC[88] = {"white" : {"username":"tempiese75", "result":""}, "black" : {"username":"cavaliereyedi", "result":""}, "url":""}
 matchFinaliC[41] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliC[42] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliC[43] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliC[43] = {"white" : {"username":"giampiero111", "result":""}, "black" : {"username":"thejoker2000", "result":""}, "url":""}
 matchFinaliC[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliC[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliC[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
@@ -436,7 +436,9 @@ function stampaFinale(tabella, finali)
                      '        </td>' +    
                      '    </tr></table>' +
                      '</td>';
-             //Giocatore nero
+            }
+         if (finali[i].black.username != '') {
+                        //Giocatore nero
              username = finali[i].black.username;
              var semaforo = '';
             //Se giocatore non si è ancora qualificato
@@ -485,11 +487,11 @@ function stampaFinale(tabella, finali)
      tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[84]  +  tabellaFinali[142] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
      tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[184] + '<td></td><td></td><td></td><td></td><td></td>aaa<td></td>' +  tabellaFinali[11] + '   </tr>');
      tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[85] + '<td></td><td></td><td></td><td></td><td></td><td></td>' +  tabellaFinali[111] + '   </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[185] + tabellaFinali[41] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[86] +  tabellaFinali[141] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[185] + tabellaFinali[43] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[86] +  tabellaFinali[143] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
      tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[186] + '<td></td><td></td><td></td>' +  tabellaFinali[21] + '  <td></td><td></td><td></td></tr>');
      tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[87] + '<td></td><td></td><td></td>' +  tabellaFinali[121] + ' <td></td><td></td><td></td> </tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[187] + tabellaFinali[42] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
-     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[88]  +  tabellaFinali[142] + '<td></td><td></td><td></td> <td></td><td></td><td></td> </tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[187] + tabellaFinali[44] + '<td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
+     tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[88]  +  tabellaFinali[144] + '<td></td><td></td><td></td> <td></td><td></td><td></td> </tr>');
      tabella.append('<tr class="classifica-giocatori">' +  tabellaFinali[188] + '<td></td><td></td><td></td><td></td><td></td><td></td>  <td></td><td></td><td></td></tr>');
 }
