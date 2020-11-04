@@ -469,7 +469,7 @@ function stampaFinale(tabella, finali)
                     '        <img class="classifica-avatar" src="' + giocatori[username].avatar + '">' +
                     '    </td>' +
                     '    <td width=7px></td>' +
-                    '    <td><div>' +
+                    '    <td><div>' +    
                     '            ' + linkGiocatore +
                     '        </td>' +    
                     '    </tr></table>' +
