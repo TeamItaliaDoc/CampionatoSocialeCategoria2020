@@ -44,10 +44,10 @@ matchFinaliA[87] = {"white" : {"username":"federicomalavasi", "result":"lost"}, 
 matchFinaliA[88] = {"white" : {"username":"homunculus1", "result":"win"}, "black" : {"username":"dirkflasche", "result":"lost"}, "url":""}
 matchFinaliA[41] = {"white" : {"username":"yoggsaron99", "result":""}, "black" : {"username":"rapace", "result":""}, "url":""}
 matchFinaliA[42] = {"white" : {"username":"pumpf", "result":""}, "black" : {"username":"paolobarolo", "result":""}, "url":""}
-matchFinaliA[43] = {"white" : {"username":"sir-h-hornblower", "result":""}, "black" : {"username":"sandokann", "result":""}, "url":""}
+matchFinaliA[43] = {"white" : {"username":"sir-h-hornblower", "result":"lost"}, "black" : {"username":"sandokann", "result":"win"}, "url":""}
 matchFinaliA[44] = {"white" : {"username":"pieropare", "result":""}, "black" : {"username":"homunculus1", "result":""}, "url":""}
 matchFinaliA[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[22] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[22] = {"white" : {"username":"sandokann", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliA[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 //Serie B
 matchFinaliB[81] = {"white" : {"username":"clafa", "result":"win"}, "black" : {"username":"themoonlightknight", "result":"lost"}, "url":""}
@@ -59,10 +59,10 @@ matchFinaliB[86] = {"white" : {"username":"maehard", "result":"lost"}, "black" :
 matchFinaliB[87] = {"white" : {"username":"gd1966", "result":"lost"}, "black" : {"username":"pieropare", "result":"win"}, "url":""}
 matchFinaliB[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[41] = {"white" : {"username":"clafa", "result":""}, "black" : {"username":"il_king", "result":""}, "url":""}
-matchFinaliB[42] = {"white" : {"username":"dag_stinner", "result":""}, "black" : {"username":"valeriobc", "result":""}, "url":""}
+matchFinaliB[42] = {"white" : {"username":"dag_stinner", "result":"win"}, "black" : {"username":"valeriobc", "result":"lost"}, "url":""}
 matchFinaliB[43] = {"white" : {"username":"golia_il_filisteo", "result":"lost"}, "black" : {"username":"schiappone", "result":"win"}, "url":""}
 matchFinaliB[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"dag_stinner", "result":""}, "url":""}
 matchFinaliB[22] = {"white" : {"username":"schiappone", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 //Serie C
