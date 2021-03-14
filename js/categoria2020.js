@@ -58,11 +58,11 @@ matchFinaliB[85] = {"white" : {"username":"reflex56", "result":"lost"}, "black" 
 matchFinaliB[86] = {"white" : {"username":"maehard", "result":"lost"}, "black" : {"username":"schiappone", "result":"win"}, "url":""}
 matchFinaliB[87] = {"white" : {"username":"gd1966", "result":"lost"}, "black" : {"username":"pieropare", "result":"win"}, "url":""}
 matchFinaliB[88] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[41] = {"white" : {"username":"clafa", "result":""}, "black" : {"username":"il_king", "result":""}, "url":""}
+matchFinaliB[41] = {"white" : {"username":"clafa", "result":"lost"}, "black" : {"username":"il_king", "result":"win"}, "url":""}
 matchFinaliB[42] = {"white" : {"username":"dag_stinner", "result":"win"}, "black" : {"username":"valeriobc", "result":"lost"}, "url":""}
 matchFinaliB[43] = {"white" : {"username":"golia_il_filisteo", "result":"lost"}, "black" : {"username":"schiappone", "result":"win"}, "url":""}
 matchFinaliB[44] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliB[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"dag_stinner", "result":""}, "url":""}
+matchFinaliB[21] = {"white" : {"username":"il_king", "result":""}, "black" : {"username":"dag_stinner", "result":""}, "url":""}
 matchFinaliB[22] = {"white" : {"username":"schiappone", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 matchFinaliB[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
 //Serie C
