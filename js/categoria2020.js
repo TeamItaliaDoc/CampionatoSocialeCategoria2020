@@ -80,7 +80,7 @@ matchFinaliC[43] = {"white" : {"username":"giampiero111", "result":"lost"}, "bla
 matchFinaliC[44] = {"white" : {"username":"kmoreteam", "result":"win"}, "black" : {"username":"tempiese75", "result":"lost"}, "url":""}
 matchFinaliC[21] = {"white" : {"username":"ytoong", "result":"win"}, "black" : {"username":"linchetto", "result":"lost"}, "url":""}
 matchFinaliC[22] = {"white" : {"username":"thejoker2000", "result":"lost"}, "black" : {"username":"kmoreteam", "result":"win"}, "url":"https://www.chess.com/game/daily/313006982"}
-matchFinaliC[11] = {"white" : {"username":"ytoong", "result":""}, "black" : {"username":"kmoreteam", "result":""}, "url":""}
+matchFinaliC[11] = {"white" : {"username":"ytoong", "result":"win"}, "black" : {"username":"kmoreteam", "result":"lost"}, "url":""}
 
 
 
