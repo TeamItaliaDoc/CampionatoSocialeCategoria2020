@@ -47,8 +47,8 @@ matchFinaliA[42] = {"white" : {"username":"pumpf", "result":"win"}, "black" : {"
 matchFinaliA[43] = {"white" : {"username":"sir-h-hornblower", "result":"lost"}, "black" : {"username":"sandokann", "result":"win"}, "url":""}
 matchFinaliA[44] = {"white" : {"username":"pieropare", "result":""}, "black" : {"username":"homunculus1", "result":""}, "url":""}
 matchFinaliA[21] = {"white" : {"username":"", "result":""}, "black" : {"username":"pumpfs", "result":""}, "url":""}
-matchFinaliA[22] = {"white" : {"username":"sandokann", "result":""}, "black" : {"username":"", "result":""}, "url":""}
-matchFinaliA[11] = {"white" : {"username":"", "result":""}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[22] = {"white" : {"username":"sandokann", "result":"lost"}, "black" : {"username":"", "result":""}, "url":""}
+matchFinaliA[11] = {"white" : {"username":"yoggsaron99", "result":"win"}, "black" : {"username":"rapace", "result":"lost"}, "url":""}
 //Serie B
 matchFinaliB[81] = {"white" : {"username":"clafa", "result":"win"}, "black" : {"username":"themoonlightknight", "result":"lost"}, "url":""}
 matchFinaliB[82] = {"white" : {"username":"il_king", "result":"win"}, "black" : {"username":"nick_940", "result":"lost"}, "url":"https://www.chess.com/daily/game/271748742"}
